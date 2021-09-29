@@ -34,4 +34,4 @@ const findCarByModel = (carModel, carYear) => {
 
 findCarByModel("520D XDRIVE", "2016");
 
-module.exports = findCarByModel()
+module.exports = findCarByModel
