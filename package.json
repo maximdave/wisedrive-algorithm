@@ -1,0 +1,14 @@
+{
+  "name": "wisedriveproject",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --watchAll",
+    "extract": "node extract.js",
+    "findCar": "yarn extract && node index.js"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4",
+    "supertest": "^6.1.6"
+  }
+}
