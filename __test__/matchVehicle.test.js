@@ -7,6 +7,6 @@ describe("Match Vehicle", () => {
     // expect(1+1).toBe(2)
    const result =  findCarByModel("520D XDRIVE", "2017");
    const expected = [ '106275', '106459' ]
-//    expect(result).arrayContaining(expected)
+   expect(result).arrayContaining(expected)
   });
 });
